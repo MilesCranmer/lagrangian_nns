@@ -1,14 +1,14 @@
-Lagrangian Neural Networks
+[Lagrangian Neural Networks](https://arxiv.org/abs/2003.04630) 
 =======
 Miles Cranmer, Sam Greydanus, Stephan Hoyer, Peter Battaglia, David Spergel, Shirley Ho | 2020
 
 ![overall-idea.png](static/overall-idea.png)
 
-
+* [Blog](https://greydanus.github.io/2020/03/10/lagrangian-nns/)
 * [Self-Contained Tutorial](https://colab.research.google.com/drive/1CSy-xfrnTX28p1difoTA8ulYw0zytJkq)
-* [Paper: double pendulum](https://github.com/MilesCranmer/lagrangian_nns/blob/master/notebooks/DoublePendulum.ipynb)
-* [Paper: special relativity](https://github.com/MilesCranmer/lagrangian_nns/blob/master/notebooks/SpecialRelativity.ipynb)
-* [Paper: wave equation](https://github.com/MilesCranmer/lagrangian_nns/blob/master/notebooks/WaveEquation.ipynb)
+* [Paper example notebook: double pendulum](https://github.com/MilesCranmer/lagrangian_nns/blob/master/notebooks/DoublePendulum.ipynb)
+* [Paper example notebook: special relativity](https://github.com/MilesCranmer/lagrangian_nns/blob/master/notebooks/SpecialRelativity.ipynb)
+* [Paper example notebook: wave equation](https://github.com/MilesCranmer/lagrangian_nns/blob/master/notebooks/WaveEquation.ipynb)
 
 Summary
 --------
