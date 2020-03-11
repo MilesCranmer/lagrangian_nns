@@ -6,6 +6,9 @@ Miles Cranmer, Sam Greydanus, Stephan Hoyer, Peter Battaglia, David Spergel, Shi
 
 
 * [Self-Contained Tutorial](https://colab.research.google.com/drive/1CSy-xfrnTX28p1difoTA8ulYw0zytJkq)
+* [Paper: double pendulum](https://github.com/MilesCranmer/lagrangian_nns/blob/master/notebooks/DoublePendulum.ipynb)
+* [Paper: special relativity](https://github.com/MilesCranmer/lagrangian_nns/blob/master/notebooks/SpecialRelativity.ipynb)
+* [Paper: wave equation](https://github.com/MilesCranmer/lagrangian_nns/blob/master/notebooks/WaveEquation.ipynb)
 
 Summary
 --------
