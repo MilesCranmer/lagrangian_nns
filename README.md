@@ -4,6 +4,7 @@ Miles Cranmer, Sam Greydanus, Stephan Hoyer, Peter Battaglia, David Spergel, Shi
 
 ![overall-idea.png](static/overall-idea.png)
 
+* [Paper](https://arxiv.org/abs/2003.04630)
 * [Blog](https://greydanus.github.io/2020/03/10/lagrangian-nns/)
 * [Self-Contained Tutorial](https://colab.research.google.com/drive/1CSy-xfrnTX28p1difoTA8ulYw0zytJkq)
 * [Paper example notebook: double pendulum](https://github.com/MilesCranmer/lagrangian_nns/blob/master/notebooks/DoublePendulum.ipynb)
