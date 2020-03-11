@@ -20,8 +20,8 @@ In this project we propose Lagrangian Neural Networks (LNNs), which can paramete
 | Learns dynamics | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 | Learns continuous-time dynamics | | ✔️ | ✔️ | ✔️ | ✔️ |
 | Learns exact conservation laws | | | ✔️ | ✔️ | ✔️ |
-| Learns from arbitrary coordinates| | || ✔️ | ✔️ |
-| Learns arbitrary Lagrangians | | | ✔️ | | ✔️ |
+| Learns from arbitrary coordinates| ✔️ | ✔️ || ✔️ | ✔️ |
+| Learns arbitrary Lagrangians | | |  | | ✔️ |
 
 
 
