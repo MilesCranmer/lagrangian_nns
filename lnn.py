@@ -14,6 +14,7 @@ def unconstrained_eom(model, state, t=None):
 # lagrangian equation of motion
 def lagrangian_eom(lagrangian, state, t=None):
   q, q_t = jnp.split(state, 2)
+  #Note: the following line assumes q is an angle. Delete it for problems other than double pendulum.
   q = q % (2*jnp.pi)
   q_tt = (jnp.linalg.pinv(jax.hessian(lagrangian, 1)(q, q_t))
           @ (jax.grad(lagrangian, 0)(q, q_t)
