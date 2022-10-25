@@ -12,6 +12,9 @@ Accepted to ICLR 2020 Workshop on Deep Differential Equations
 * [Paper example notebook: special relativity](https://github.com/MilesCranmer/lagrangian_nns/blob/master/notebooks/SpecialRelativity.ipynb)
 * [Paper example notebook: wave equation](https://github.com/MilesCranmer/lagrangian_nns/blob/master/notebooks/WaveEquation.ipynb)
 
+> **Warning**
+> To use our implementation with more recent versions of JAX, you change `jax.experimental.stax` to `jax.example_libraries.stax` and `jax.experimental.optimizers` to `jax.example_libraries.optimizers`. Please raise an issue if there are other deprecated functionalities.
+
 Summary
 --------
 
