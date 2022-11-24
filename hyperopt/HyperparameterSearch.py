@@ -6,7 +6,7 @@ import argparse
 from jax import jit
 from jax.experimental.ode import odeint
 from functools import partial # reduces arguments to function by making some subset implicit
-from jax.experimental import stax
+from jax.example_libraries import stax
 from jax.experimental import optimizers
 import os, sys, time
 sys.path.append('..')
@@ -35,7 +35,7 @@ def learned_dynamics(params):
   return dynamics
 
 
-from jax.experimental.stax import serial, Dense, Softplus, Tanh, elementwise, Relu
+from jax.example_libraries.stax import serial, Dense, Softplus, Tanh, elementwise, Relu
 
 
 sigmoid = jit(lambda x: 1/(1+jnp.exp(-x)))
@@ -76,7 +76,7 @@ def extended_mlp(args):
     return stax.serial(*layers)
 
 vfnc = jax.jit(jax.vmap(analytical_fn))
-vget = partial(jax.jit, backend='cpu')(jax.vmap(partial(get_trajectory_analytic, mxsteps=100), (0, None), 0))
+vget = partial(jax.jit, backend='cpu')(jax.vmap(partial(get_trajectory_analytic, mxstep=100), (0, None), 0))
 vget_unlimited = partial(jax.jit, backend='cpu')(jax.vmap(partial(get_trajectory_analytic), (0, None), 0))
 
 dataset_size=50
