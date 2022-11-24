@@ -35,7 +35,7 @@ def learned_dynamics(params):
   return dynamics
 
 
-from jax.experimental.stax import serial, Dense, Softplus, Tanh, elementwise, Relu
+from jax.example_libraries.stax import serial, Dense, Softplus, Tanh, elementwise, Relu
 
 
 sigmoid = jit(lambda x: 1/(1+jnp.exp(-x)))
