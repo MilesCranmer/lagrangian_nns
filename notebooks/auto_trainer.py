@@ -44,7 +44,7 @@ from data import get_trajectory_analytic
 from physics import analytical_fn
 
 vfnc = jax.jit(jax.vmap(analytical_fn))
-vget = partial(jax.jit, backend='cpu')(jax.vmap(partial(get_trajectory_analytic, mxsteps=100), (0, None), 0))
+vget = partial(jax.jit, backend='cpu')(jax.vmap(partial(get_trajectory_analytic, mxstep=100), (0, None), 0))
 
 
 # 0.29830917716026306 {'act': [4],

@@ -46,7 +46,7 @@ from data import get_trajectory_analytic
 from physics import analytical_fn
 
 vfnc = jax.jit(jax.vmap(analytical_fn))
-vget = partial(jax.jit, backend='cpu')(jax.vmap(partial(get_trajectory_analytic, mxsteps=100), (0, None), 0))
+vget = partial(jax.jit, backend='cpu')(jax.vmap(partial(get_trajectory_analytic, mxstep=100), (0, None), 0))
 
 
 import pickle as pkl
@@ -91,7 +91,7 @@ while True:
 
 
     vfnc = jax.jit(jax.vmap(analytical_fn, 0, 0))
-    vget = partial(jax.jit, backend='cpu')(jax.vmap(partial(get_trajectory_analytic, mxsteps=100), (0, None), 0))
+    vget = partial(jax.jit, backend='cpu')(jax.vmap(partial(get_trajectory_analytic, mxstep=100), (0, None), 0))
 
     batch = 60
 
