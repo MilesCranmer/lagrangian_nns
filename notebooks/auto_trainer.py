@@ -10,7 +10,7 @@ from jax import jit
 from jax.experimental.ode import odeint
 from functools import partial # reduces arguments to function by making some subset implicit
 
-from jax.experimental import stax
+from jax.example_libraries import stax
 from jax.experimental import optimizers
 
 import os, sys, time
